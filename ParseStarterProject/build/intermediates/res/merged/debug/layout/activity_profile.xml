@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.Profile">
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="146dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Status"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/picText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="Profile Picture" />
+</RelativeLayout>
